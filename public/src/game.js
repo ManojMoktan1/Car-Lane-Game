@@ -15,10 +15,10 @@ const gameArea = {
   },
 
   keyPressEvent: function (e) {
-    if (e.key == "ArrowLeft") {
+    if (e.key == "ArrowLeft" || e.key == "a") {
       car.goLeftLane();
     }
-    if (e.key == "ArrowRight") {
+    if (e.key == "ArrowRight" || e.key == "d") {
       car.goRightLane();
     }
   },
