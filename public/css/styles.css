@@ -1,0 +1,66 @@
+.screen {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.display-none {
+  display: none;
+}
+
+.displayStart {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  font-size: 80px;
+  font-family: "Sans-serif";
+  padding-top: 10%;
+}
+
+.gameStartButton {
+  position: absolute;
+  padding: 10px;
+  height: 50px;
+  width: 130px;
+  font-size: 36px;
+  background-color: #32cd32;
+  bottom: 150px;
+  margin-left: 50%;
+  cursor: pointer;
+  transform: translate(-50%);
+}
+
+.displayGameOver {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  text-align: center;
+  color: #ff0000;
+  font-size: 80px;
+  font-family: "Sans-serif";
+  padding-top: 10%;
+}
+
+.restartButton {
+  position: absolute;
+  padding: 10px;
+  height: 50px;
+  width: 130px;
+  font-size: 36px;
+  background-color: #ffe4c4;
+  bottom: 150px;
+  margin-left: 50%;
+  margin-top: 20px;
+  cursor: pointer;
+  transform: translate(-50%);
+}
